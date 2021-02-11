@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat:ital,wght@1,200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+#main{
+	background-color: #0B3954;
+}
+#title{
+	padding-top: 25px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+}
+#img-div{
+	background-color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#image{
+	padding-top: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	height: 25%;
+  	width: 80%;
+
+}
+#img-caption{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+}
+h5{
+	text-align: center;
+	font-size: 29px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+#tribute-info{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 25px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width: 768px){
+	#main{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 600px;){
+	#tribute-info{
+		margin: none;
+	}
+}
+.quote{
+	font-size: 35px;
+	font-family: 'Kaushan Script', cursive;
+}
+a{
+	color: black;
+}
+.end{
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
